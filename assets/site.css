@@ -54,9 +54,10 @@ h2 {
   margin: 0 0 0.5em 0; }
 
 h3 {
-  font-size: 1.125em;
-  font-weight: normal;
-  margin: 0 0 0.5em 0; }
+  font-size: 2.1875em;
+  word-wrap: break-word;
+  margin: 0 0 0.5em 0;
+}
 
 p {
   margin: 0 0 1em;
