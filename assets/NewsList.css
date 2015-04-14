@@ -1,0 +1,40 @@
+﻿/* ==========================================================================
+#    Colors
+   ========================================================================== */
+/* ==========================================================================
+#    Fonts
+   ========================================================================== */
+/* ==========================================================================
+#    Colors
+   ========================================================================== */
+/* ==========================================================================
+#    Fonts
+   ========================================================================== */
+/* ################## */
+/* ################## */
+/* ################## */
+/* ################## */
+.news-list .row .item a .item-content {
+  color: #343434;
+  font-size: 0.875em; }
+.news-list .row .item.news-item {
+  margin-bottom: 45px;
+  position: relative;
+  padding-bottom: 1.2em; }
+  .news-list .row .item.news-item a .readmore {
+    margin-top: -1em;
+    position: absolute;
+    bottom: 0;
+    text-transform: uppercase; }
+  .news-list .row .item.news-item a:hover .readmore {
+    color: #343434; }
+.news-list .row .item.news-title {
+  margin-bottom: 0; }
+.news-list .row .item.splash {
+  border-bottom: 1px solid #efefef;
+  padding-bottom: 1.25em;
+  margin-bottom: 3.125em; }
+  .news-list .row .item.splash .item-content {
+    margin-top: 0.9375em; }
+
+/*# sourceMappingURL=NewsList.css.map */

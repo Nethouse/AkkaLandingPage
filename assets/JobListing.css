@@ -1,0 +1,85 @@
+﻿/* ==========================================================================
+#    Colors
+   ========================================================================== */
+/* ==========================================================================
+#    Fonts
+   ========================================================================== */
+/* ==========================================================================
+#    Colors
+   ========================================================================== */
+/* ==========================================================================
+#    Fonts
+   ========================================================================== */
+/* ################## */
+/* ################## */
+/* ################## */
+/* ################## */
+.job-listing .list-break.mod2-0 {
+  display: block;
+  height: 2.625em; }
+.job-listing .list-break.mod2-0 + div {
+  margin-left: 0; }
+.job-listing .item a {
+  color: inherit; }
+.job-listing .item a:hover h3 {
+  text-decoration: underline; }
+
+.job-filter {
+  overflow: hidden;
+  margin-bottom: 40px; }
+
+.job-filter .filter-item {
+  float: left;
+  display: block;
+  font-size: 0.875em;
+  font-weight: bold;
+  padding: 1.125em 2.4375em;
+  color: #fff;
+  background-color: #0ca9e3;
+  border-radius: 2px 2px 0 0;
+  text-transform: uppercase;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  cursor: pointer; }
+
+.job-filter .filter-item.active {
+  background-color: #004d9c; }
+
+.input-row {
+  margin-bottom: 1.25em; }
+  .input-row .field-validation-error {
+    color: #dd006b; }
+
+.application-form h3 {
+  margin-top: 1.25em;
+  margin-bottom: 1.25em; }
+.application-form .terms-info {
+  display: none; }
+.application-form .red {
+  color: #dd006b; }
+
+.spontaneous-intro-text {
+  margin: 3.125em 0 1.25em;
+  font-size: 1.125em;
+  font-family: crique_grotesk_display, sans-serif;
+  font-weight: bolder; }
+
+.spontaneous-intro-text a {
+  color: #0ca9e3; }
+
+#spontaneous-application {
+  display: none; }
+
+#spontaneous-application.visible {
+  display: block; }
+
+/* ==========================================================================
+#    Mobile CSS
+========================================================================== */
+@media (max-width: 640px) {
+  .job-listing .list-break.mod2-0 {
+    display: none; }
+  .job-listing .item {
+    margin-bottom: 1.3125em; } }
+
+/*# sourceMappingURL=JobListing.css.map */

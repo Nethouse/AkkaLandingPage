@@ -1,0 +1,494 @@
+﻿/* ==========================================================================
+#    Colors
+   ========================================================================== */
+/* ==========================================================================
+#    Fonts
+   ========================================================================== */
+/* ==========================================================================
+#    Colors
+   ========================================================================== */
+/* ==========================================================================
+#    Fonts
+   ========================================================================== */
+/* ################## */
+/* ################## */
+/* ################## */
+/* ################## */
+/* ################## */
+/* ################## */
+/* ################## */
+/* ################## */
+body, html {
+  font-family: crique_grotesk_display, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #fff;
+  color: #808080;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 125%; }
+
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+h1, h2, h3, h4, h5, h6 {
+  font-family: crique_grotesk_display_light, crique_grotesk_display, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  color: #343434;
+  text-rendering: optimizelegibility;
+  line-height: 120%;
+  letter-spacing: -0.05em; }
+  h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+    color: inherit; }
+
+h1 {
+  font-size: 2.1875em;
+  -ms-word-wrap: break-word;
+  word-wrap: break-word;
+  margin: 0 0 0.5em 0; }
+
+h2 {
+  font-size: 1.5625em;
+  margin: 0 0 0.5em 0; }
+
+h3 {
+  font-size: 1.125em;
+  font-weight: normal;
+  margin: 0 0 0.5em 0; }
+
+p {
+  margin: 0 0 1em;
+  line-height: 150%; }
+
+p + p {
+  margin-top: 1.25em; }
+
+a, a:visited {
+  text-decoration: none;
+  outline: 0; }
+
+a:hover, a:focus {
+  color: #000; }
+
+p a, p a:visited {
+  line-height: inherit; }
+
+/* ==========================================================================
+   Objects
+   ========================================================================== */
+img {
+  width: auto;
+  max-width: 100%;
+  height: auto; }
+
+/* ==========================================================================
+   Form default
+   ========================================================================== */
+.submit, input[type=submit] {
+  border: 0;
+  text-transform: uppercase;
+  cursor: pointer;
+  -webkit-appearance: none;
+  background-color: #0ca9e3;
+  padding: 0.625em 1.25em;
+  color: #fff;
+  font-weight: bold; }
+
+.submit:hover, input[type=submit]:hover {
+  background-color: #004d9c; }
+
+textarea, select, input[type=text], input[type=password], input[type=email], input[type=tel], input[type=file] {
+  border: none;
+  background: #efefef;
+  width: 100%;
+  padding: 0.1875em 0.4375em;
+  padding-right: 0;
+  font-size: 1em;
+  line-height: 1.8125em;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;
+  /*-webkit-appearance: none;*/ }
+
+select {
+  padding-top: 0.25em;
+  padding-bottom: 0.3125em;
+  padding-right: 0.25em; }
+
+.placeholder {
+  color: #000; }
+
+::-webkit-input-placeholder {
+  color: #000; }
+
+:-moz-placeholder {
+  color: #000; }
+
+::-moz-placeholder {
+  color: #000; }
+
+:-ms-input-placeholder {
+  color: #000; }
+
+.required.placeholder:after {
+  content: " *";
+  color: #6c2785; }
+
+.required::-webkit-input-placeholder:after {
+  content: " *";
+  color: #6c2785; }
+
+.required:-moz-placeholder:after {
+  content: " *";
+  color: #6c2785; }
+
+.required::-moz-placeholder:after {
+  content: " *";
+  color: #6c2785; }
+
+.required:-ms-input-placeholder:after {
+  content: " *";
+  color: #6c2785; }
+
+/* ==========================================================================
+   Master (header & footer) 
+   ========================================================================== */
+.header {
+  background-image: url(/Images/header-bg.jpg);
+  background-position-x: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 572px;
+  overflow: hidden; }
+  .header .main-logo-wrapper .main-logo {
+    margin-top: 0.9em; }
+  .header .top-banner {
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 85px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 200; }
+  .header .top-image-btn-wrapper {
+    height: 100%; }
+    .header .top-image-btn-wrapper .top-image-btn {
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      background-image: url(/Images/grad-bg.png);
+      background-size: contain;
+      color: #fff;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      padding: 2.4375em;
+      width: 458px; }
+      .header .top-image-btn-wrapper .top-image-btn h2 {
+        font-size: 3.3125em; }
+      .header .top-image-btn-wrapper .top-image-btn div {
+        font-size: 2.125em; }
+      .header .top-image-btn-wrapper .top-image-btn a {
+        font-size: 1.34375em; }
+      .header .top-image-btn-wrapper .top-image-btn h2, .header .top-image-btn-wrapper .top-image-btn div, .header .top-image-btn-wrapper .top-image-btn a {
+        font-family: crique_grotesk_display_light, crique_grotesk_display, sans-serif;
+        font-weight: normal;
+        font-style: normal;
+        color: #fff;
+        margin: 0;
+        line-height: normal; }
+  .header .top-title {
+    font-family: crique_grotesk_display_light, crique_grotesk_display, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    color: #fff;
+    font-size: 3.75em;
+    margin-top: 4.33333em; }
+
+.node_level_3 .header {
+  height: 252px; }
+  .node_level_3 .header .top-title {
+    margin-top: 2.13333em; }
+
+.header.custom-top-image {
+  height: 658px; }
+
+.wrap.content {
+  background-color: #b5b5b5;
+  overflow: hidden; }
+  .wrap.content .content-wrap {
+    background-color: #fff;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+    margin: 1.25em 0; }
+    .wrap.content .content-wrap .container {
+      position: relative;
+      padding-top: 3.75em;
+      padding-bottom: 6.875em; }
+      .wrap.content .content-wrap .container h2 {
+        font-family: crique_grotesk_display_light, crique_grotesk_display, sans-serif;
+        font-weight: normal;
+        font-style: normal;
+        font-size: 3.125em; }
+      .wrap.content .content-wrap .container .content-list .child {
+        margin-bottom: 4.375em; }
+        .wrap.content .content-wrap .container .content-list .child .readmore {
+          display: inline-block;
+          margin-top: 1em; }
+    .wrap.content .content-wrap .readmore-tip {
+      font-size: 0.875em;
+      font-weight: bold;
+      padding: 1.125em 2.4375em;
+      color: #fff;
+      background-color: #004d9c;
+      border-radius: 2px 2px 0 0;
+      text-transform: uppercase;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      z-index: 1; }
+  .wrap.content .content-wrap:first-child {
+    margin-top: 0; }
+
+.footer {
+  background-repeat: no-repeat;
+  background-image: url(/Images/footer-bg.jpg);
+  background-size: cover;
+  background-position-x: 50%;
+  height: 200px; }
+  .footer .footer-logo {
+    margin-top: 2.8125em; }
+
+/* ==========================================================================
+   Common
+   ========================================================================== */
+.breadcrumbs-wrapper {
+  position: relative;
+  height: 0; }
+  .breadcrumbs-wrapper .breadcrumbs {
+    font-size: 0.8125em;
+    padding-top: 0.8em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1; }
+    .breadcrumbs-wrapper .breadcrumbs a {
+      font-weight: bold;
+      color: #0ca9e3;
+      text-transform: uppercase; }
+    .breadcrumbs-wrapper .breadcrumbs a:hover {
+      color: #343434;
+      text-decoration: underline; }
+    .breadcrumbs-wrapper .breadcrumbs .delimiter {
+      font-weight: bold;
+      margin: 0 0.5em; }
+
+.body-text a {
+  color: #0ca9e3;
+  text-decoration: none; }
+.body-text a:hover {
+  color: #343434;
+  text-decoration: underline; }
+
+.list-break {
+  height: 0;
+  width: 100%;
+  float: left;
+  display: none; }
+
+.item-type, .item-place {
+  color: #0ca9e3; }
+
+.item-type, .item-place, .item-title {
+  font-family: crique_grotesk_display, sans-serif;
+  font-weight: bolder;
+  font-style: normal;
+  letter-spacing: -0.04em;
+  text-transform: uppercase; }
+
+.item-type, .item-place, .item-date, .item-ingress, .readmore {
+  font-size: 0.875em; }
+
+.item-date {
+  color: #5c5c5c; }
+
+.item-title {
+  font-size: 1.0625em;
+  margin: 5px 0; }
+
+.item-ingress {
+  color: #808080; }
+
+.readmore {
+  font-weight: bold;
+  color: #0ca9e3; }
+
+/* ==========================================================================
+   Useful classes
+   ========================================================================== */
+.image-right, .image-left {
+  display: block;
+  overflow: hidden; }
+  .image-right img, .image-left img {
+    vertical-align: middle;
+    height: auto !important; }
+
+.image-right {
+  float: right;
+  margin-left: 3%; }
+
+.image-left {
+  float: left;
+  margin-right: 3%; }
+
+.image-panorama {
+  display: block; }
+
+.altText {
+  font-style: italic;
+  font-size: 14px; }
+
+.left {
+  float: left; }
+
+.right {
+  float: right; }
+
+.clear {
+  clear: both; }
+
+.full {
+  width: 100%; }
+
+.half {
+  width: 50%; }
+
+.border-box {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box; }
+
+.center-text {
+  text-align: center; }
+
+.absolute-right {
+  position: absolute;
+  right: 0; }
+
+.absolute-left {
+  position: absolute;
+  left: 0; }
+
+.absolute-bottom {
+  position: absolute;
+  bottom: 0; }
+
+.absolute-top {
+  position: absolute;
+  top: 0; }
+
+.position-relative {
+  position: relative; }
+
+.overflow-hidden {
+  overflow: hidden; }
+
+.clear-left {
+  clear: left; }
+
+.ellipsis {
+  text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  -webkit-text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  display: block; }
+
+.nowrap {
+  white-space: nowrap; }
+
+.uppercase {
+  text-transform: uppercase; }
+
+.hidden {
+  display: none; }
+
+.max-width {
+  max-width: 100%; }
+
+/* ==========================================================================
+#    Desktop CSS
+   ========================================================================== */
+@media (min-width: 851px) { }
+
+/* ==========================================================================
+#    Tablet & Desktop CSS
+   ========================================================================== */
+@media (min-width: 641px) { }
+
+/* ==========================================================================
+#    Tablet CSS
+   ========================================================================== */
+@media (min-width: 641px) and (max-width: 850px) { }
+
+/* ==========================================================================
+#    Mobile & Tablet CSS
+   ========================================================================== */
+@media (max-width: 850px) {
+  .header {
+    height: 572px; }
+  .main-logo-wrapper {
+    display: block;
+    margin-top: 0.625em; }
+    .main-logo-wrapper .main-logo {
+      max-width: 5.625em; }
+  .body .image-right, .body .image-left {
+    width: 100%; } }
+
+/* ==========================================================================
+#    Mobile CSS
+========================================================================== */
+@media (max-width: 640px) {
+  .header {
+    height: 500px; }
+    .header .top-title {
+      font-size: 1.875em;
+      margin-top: 7em; }
+    .header .top-banner .container .main-logo-wrapper {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 999; }
+    .header .top-image-btn-wrapper {
+      width: 100%; }
+      .header .top-image-btn-wrapper .container {
+        width: 100%;
+        margin: 0; }
+      .header .top-image-btn-wrapper .top-image-btn {
+        -webkit-box-sizing: content-box;
+        -moz-box-sizing: content-box;
+        box-sizing: content-box;
+        width: 100%;
+        left: 0; }
+        .header .top-image-btn-wrapper .top-image-btn h2 {
+          font-size: 2.5em; }
+        .header .top-image-btn-wrapper .top-image-btn div {
+          font-size: 1.875em; }
+        .header .top-image-btn-wrapper .top-image-btn a {
+          font-size: 1.125em; }
+  .node_level_3 .header .top-title {
+    margin-top: 4.8em; }
+  .wrap.content .content-wrap .container h2 {
+    font-size: 2.5em; }
+  .footer {
+    text-align: center; } }
+
+/* ==========================================================================
+#    Print CSS
+========================================================================== */
+@media print { }
+
+/* ==========================================================================
+#    Font CSS
+========================================================================== */

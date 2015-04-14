@@ -1,0 +1,68 @@
+﻿/* ==========================================================================
+#    Colors
+   ========================================================================== */
+/* ==========================================================================
+#    Fonts
+   ========================================================================== */
+/* ==========================================================================
+#    Colors
+   ========================================================================== */
+/* ==========================================================================
+#    Fonts
+   ========================================================================== */
+/* ################## */
+/* ################## */
+/* ################## */
+/* ################## */
+.case-listing a:hover > h3 {
+  color: #343434;
+  text-decoration: underline; }
+.case-listing a .item-ingress {
+  color: #808080; }
+.case-listing .item {
+  padding-bottom: 2em;
+  position: relative; }
+  .case-listing .item .item-image {
+    margin-bottom: 0.625em; }
+  .case-listing .item h3 {
+    margin-top: 0.125em; }
+  .case-listing .item .readmore {
+    position: absolute;
+    bottom: 0;
+    display: block;
+    text-transform: uppercase; }
+
+/* ==========================================================================
+#    Desktop CSS
+   ========================================================================== */
+@media (min-width: 851px) {
+  .case-listing .list-break.mod2-0 {
+    display: none; }
+  .case-listing .list-break.mod3-0 {
+    display: block;
+    height: 3.875em; }
+  .case-listing .list-break.mod3-0 + * + div {
+    margin-left: 0; } }
+
+/* ==========================================================================
+#    Tablet CSS
+   ========================================================================== */
+@media (min-width: 641px) and (max-width: 850px) {
+  .case-listing .list-break.mod2-0 {
+    display: block;
+    height: 3.875em; }
+  .case-listing .list-break.mod2-0 + div {
+    margin-left: 0; }
+  .case-listing .list-break.mod3-0 {
+    display: none; } }
+
+/* ==========================================================================
+#    Mobile CSS
+========================================================================== */
+@media (max-width: 640px) {
+  .case-listing .list-break.mod2-0, .case-listing .list-break.mod3-0 {
+    display: none; }
+  .case-listing .item {
+    margin-bottom: 3.875em; } }
+
+/*# sourceMappingURL=caselisting.css.map */

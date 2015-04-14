@@ -1,0 +1,189 @@
+﻿/* ==========================================================================
+#    Colors
+   ========================================================================== */
+/* ==========================================================================
+#    Fonts
+   ========================================================================== */
+/* ==========================================================================
+#    Colors
+   ========================================================================== */
+/* ==========================================================================
+#    Fonts
+   ========================================================================== */
+/* ################## */
+/* ################## */
+/* ################## */
+/* ################## */
+.mainMenu {
+  position: absolute;
+  right: 0;
+  bottom: 0; }
+  .mainMenu ul.lvl_1 {
+    list-style: none;
+    font-family: crique_grotesk_display, sans-serif;
+    font-weight: bold;
+    padding: 0;
+    font-size: 0.8125em;
+    margin: 0.8em 0 0 0; }
+    .mainMenu ul.lvl_1 > li {
+      position: relative;
+      float: left;
+      margin-left: 1.5625em;
+      text-transform: uppercase; }
+      .mainMenu ul.lvl_1 > li > a {
+        color: #fff; }
+        .mainMenu ul.lvl_1 > li > a span.menu-link {
+          border-bottom: 2px solid transparent; }
+    .mainMenu ul.lvl_1 > li > a:hover span.visible-phone, .mainMenu ul.lvl_1 > li.active > a span.visible-phone {
+      text-decoration: none; }
+    .mainMenu ul.lvl_1 > li > a:hover span.menu-link, .mainMenu ul.lvl_1 > li.active > a span.menu-link {
+      border-bottom-color: #fff; }
+    .mainMenu ul.lvl_1 > li:first-child {
+      margin-left: 0; }
+
+/* ==========================================================================
+#    Desktop variables
+   ========================================================================== */
+@media (min-width: 851px) { }
+
+/* ==========================================================================
+#    Tablet & Desktop variables
+   ========================================================================== */
+@media (min-width: 641px) { }
+
+/* STOR TABLET */
+@media (min-width: 851px) and (max-width: 1025px) { }
+
+/* ==========================================================================
+#    Tablet variables
+   ========================================================================== */
+@media (min-width: 641px) and (max-width: 850px) {
+  .mainMenu ul.lvl_1 > li {
+    margin-left: 0.75em; } }
+
+/* ==========================================================================
+#    Mobile & Tablet variables
+   ========================================================================== */
+@media (max-width: 850px) { }
+
+/* ==========================================================================
+#   Dropdownmenu limit
+   ========================================================================== */
+@media (max-width: 700px) {
+  .wrap.header .top-banner {
+    -webkit-transition: all 1s;
+    /* For Safari 3.1 to 6.0 */
+    transition: all 1s; }
+    .wrap.header .top-banner .container {
+      padding: 0;
+      height: 86px;
+      margin: 0;
+      width: 100%;
+      max-width: 100%; }
+      .wrap.header .top-banner .container .main-logo-wrapper {
+        margin-left: 4%; }
+  .wrap.header .top-banner.active {
+    background: transparent url(/Images/mobile-menu-bg.png) center center repeat-x; }
+  .mainMenu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    /* BUTTON */ }
+    .mainMenu #siteMenuBtn, .mainMenu .topContent {
+      display: block; }
+    .mainMenu .menuWrap {
+      background: url(/Images/mobile-menu-bg.png);
+      background-size: cover;
+      display: none;
+      position: absolute;
+      top: 85px;
+      right: 0;
+      width: 100%;
+      -webkit-box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.4);
+      box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.4);
+      padding: 0 2%; }
+      .mainMenu .menuWrap .lvl_1 > li {
+        float: none;
+        margin: 0;
+        padding: 25px 0 0 16px; }
+        .mainMenu .menuWrap .lvl_1 > li a {
+          display: inline-block;
+          padding-bottom: 25px;
+          font-size: 1.375em;
+          color: #fff;
+          border-bottom: 1px solid #b5b5b5;
+          width: 92%; }
+          .mainMenu .menuWrap .lvl_1 > li a span.visible-phone {
+            display: inline-block;
+            margin-right: 0.9375em; }
+          .mainMenu .menuWrap .lvl_1 > li a span.menu-link {
+            border-bottom-width: 3px; }
+      .mainMenu .menuWrap .lvl_1 > li:last-child a {
+        border-bottom: none; }
+    .mainMenu #siteMenuBtn {
+      position: absolute;
+      z-index: 101;
+      right: 4%;
+      top: 10px;
+      width: 63px;
+      height: 63px;
+      cursor: pointer;
+      text-align: center;
+      -moz-user-select: none;
+      -webkit-user-select: none;
+      -ms-user-select: none;
+      background: transparent;
+      -webkit-border-radius: 3px;
+      /*border-radius: 3px;
+            border: 1px solid $mobile_menu_border;*/
+      -moz-user-select: none;
+      -webkit-user-select: none;
+      -ms-user-select: none;
+      -webkit-transition: all 0.5s;
+      /* For Safari 3.1 to 6.0 */
+      transition: all 0.5s; }
+      .mainMenu #siteMenuBtn .line {
+        background: #fff;
+        height: 10px;
+        border-radius: 5px;
+        margin: 3.5px 6px;
+        -webkit-transition: all 0.5s;
+        /* For Safari 3.1 to 6.0 */
+        transition: all 0.5s;
+        position: absolute;
+        width: 51px; }
+      .mainMenu #siteMenuBtn .top {
+        top: 5.5px; }
+      .mainMenu #siteMenuBtn .mid {
+        position: relative;
+        top: 50%;
+        margin: -5px auto 0; }
+      .mainMenu #siteMenuBtn .bottom {
+        bottom: 5.5px; }
+  .mainMenu.active #siteMenuBtn .line {
+    background: #fff;
+    top: 50%;
+    margin-top: -6px;
+    bottom: auto; }
+  .mainMenu.active #siteMenuBtn .top {
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg); }
+  .mainMenu.active #siteMenuBtn .mid {
+    width: 0%; }
+  .mainMenu.active #siteMenuBtn .bottom {
+    -moz-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg); } }
+
+/* ==========================================================================
+#    Mobile variables
+========================================================================== */
+@media (max-width: 640px) { }
+
+/*# sourceMappingURL=mainMenu.css.map */

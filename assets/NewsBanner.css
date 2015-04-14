@@ -1,0 +1,101 @@
+﻿/* ==========================================================================
+#    Colors
+   ========================================================================== */
+/* ==========================================================================
+#    Fonts
+   ========================================================================== */
+/* ==========================================================================
+#    Colors
+   ========================================================================== */
+/* ==========================================================================
+#    Fonts
+   ========================================================================== */
+/* ################## */
+/* ################## */
+/* ################## */
+/* ################## */
+.news-banner h3 {
+  font-size: 1.0625em;
+  text-transform: uppercase;
+  margin: 0.125em 0; }
+.news-banner .arrows {
+  display: block;
+  margin-left: 8.4%; }
+.news-banner .inner .container {
+  position: relative;
+  padding: 1.5em 1.25em !important; }
+.news-banner .item {
+  white-space: normal;
+  vertical-align: top;
+  padding: 0 1em;
+  font-size: inherit; }
+  .news-banner .item a {
+    color: #343434; }
+  .news-banner .item a:hover h3 {
+    text-decoration: underline; }
+  .news-banner .item .item-ingress {
+    color: #808080; }
+  .news-banner .item .item-date {
+    color: #8c8c8c; }
+.news-banner .nav {
+  position: absolute;
+  top: 50%;
+  margin-top: -10px;
+  z-index: 5;
+  cursor: pointer; }
+.news-banner .nav.dbPrev {
+  left: -1.9em; }
+.news-banner .nav.dbNext {
+  right: 1.9em; }
+
+/* ==========================================================================
+#    Desktop variables
+   ========================================================================== */
+@media (min-width: 851px) {
+  .news-banner .inner .container {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
+  .news-banner .nav.dbPrev {
+    left: 0; }
+  .news-banner .nav.dbNext {
+    right: 0; } }
+
+/* ==========================================================================
+#    Tablet & Desktop variables
+   ========================================================================== */
+@media (min-width: 641px) { }
+
+/* STOR TABLET */
+@media (min-width: 851px) and (max-width: 1025px) { }
+
+/* ==========================================================================
+#    Tablet variables
+   ========================================================================== */
+@media (min-width: 641px) and (max-width: 850px) {
+  .news-banner .inner .container {
+    position: relative; }
+  .news-banner .nav.dbPrev {
+    left: 2%; }
+  .news-banner .nav.dbNext {
+    right: 4%; } }
+
+/* ==========================================================================
+#    Mobile & Tablet variables
+   ========================================================================== */
+@media (max-width: 850px) { }
+
+/* ==========================================================================
+#    Mobile variables
+========================================================================== */
+@media (max-width: 640px) {
+  .news-banner .inner {
+    background: #fff; }
+    .news-banner .inner .container {
+      position: relative; }
+  .news-banner .nav.dbPrev {
+    left: 2.1%; }
+  .news-banner .nav.dbNext {
+    right: 4.1%; } }
+
+/*# sourceMappingURL=NewsBanner.css.map */
