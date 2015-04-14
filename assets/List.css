@@ -1,0 +1,52 @@
+﻿/* ==========================================================================
+#    Colors
+   ========================================================================== */
+/* ==========================================================================
+#    Fonts
+   ========================================================================== */
+/* ==========================================================================
+#    Colors
+   ========================================================================== */
+/* ==========================================================================
+#    Fonts
+   ========================================================================== */
+/* ################## */
+/* ################## */
+/* ################## */
+/* ################## */
+.list-page h2 {
+  word-wrap: break-word;
+  -ms-word-wrap: break-word; }
+.list-page .side-links {
+  text-transform: uppercase;
+  font-weight: bold; }
+  .list-page .side-links h3 {
+    font-family: crique_grotesk_display, sans-serif;
+    font-weight: inherit;
+    font-style: normal;
+    font-size: 1em;
+    margin: 0 0 40px 0; }
+  .list-page .side-links ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 0; }
+    .list-page .side-links ul li {
+      background: transparent url(/Images/list-arrow.png) center left no-repeat;
+      border-bottom: 1px solid #efefef;
+      padding: 20px 0 20px 10px; }
+      .list-page .side-links ul li a {
+        font-size: 0.8125em;
+        color: #0ca9e3; }
+      .list-page .side-links ul li a:hover {
+        color: #343434; }
+    .list-page .side-links ul li:first-child {
+      margin-top: -20px; }
+    .list-page .side-links ul li.active a {
+      color: #343434;
+      border-bottom: 2px solid #343434; }
+
+@media (max-width: 640px) {
+  .list-page .side-links {
+    margin-top: 3em; } }
+
+/*# sourceMappingURL=List.css.map */

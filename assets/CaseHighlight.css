@@ -1,0 +1,106 @@
+﻿/* ==========================================================================
+#    Colors
+   ========================================================================== */
+/* ==========================================================================
+#    Fonts
+   ========================================================================== */
+/* ==========================================================================
+#    Colors
+   ========================================================================== */
+/* ==========================================================================
+#    Fonts
+   ========================================================================== */
+/* ################## */
+/* ################## */
+/* ################## */
+/* ################## */
+.case-highlight {
+  position: relative; }
+  .case-highlight .background-image {
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 520px;
+    width: 100%;
+    display: block; }
+  .case-highlight .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%; }
+    .case-highlight .overlay .item-title, .case-highlight .overlay .item-ingress, .case-highlight .overlay .readmore {
+      font-family: crique_grotesk_display_light, crique_grotesk_display, sans-serif;
+      font-weight: normal;
+      font-style: normal;
+      color: #484848;
+      line-height: normal;
+      text-shadow: 0 0 10px #fff;
+      text-transform: none; }
+    .case-highlight .overlay .item-title {
+      font-size: 3.4775em;
+      margin: 0; }
+    .case-highlight .overlay .item-ingress {
+      font-size: 2.16188em;
+      margin: 0; }
+    .case-highlight .overlay .readmore {
+      font-size: 1.41em; }
+    .case-highlight .overlay .item-ingress .readmore, .case-highlight .overlay a .readmore {
+      font-weight: inherit; }
+    .case-highlight .overlay a:hover .readmore {
+      text-decoration: underline; }
+    .case-highlight .overlay .container {
+      padding: 0 !important;
+      height: 100%; }
+      .case-highlight .overlay .container .text {
+        margin: 0;
+        padding-top: 7.5em;
+        height: auto; }
+
+/* ==========================================================================
+#    Desktop CSS
+   ========================================================================== */
+@media (min-width: 851px) { }
+
+/* ==========================================================================
+#    Tablet & Desktop CSS
+   ========================================================================== */
+@media (min-width: 641px) { }
+
+/* ==========================================================================
+#    Tablet CSS
+   ========================================================================== */
+@media (min-width: 641px) and (max-width: 850px) {
+  .case-highlight .overlay .container .text {
+    margin-top: 3.75em; }
+    .case-highlight .overlay .container .text .item-title {
+      font-size: 2.5em; }
+    .case-highlight .overlay .container .text .item-ingress {
+      font-size: 1.875em; }
+    .case-highlight .overlay .container .text .readmore {
+      font-size: 1.25em; } }
+
+/* ==========================================================================
+#    Mobile & Tablet CSS
+   ========================================================================== */
+@media (max-width: 850px) { }
+
+/* ==========================================================================
+#    Mobile CSS
+========================================================================== */
+@media (max-width: 640px) {
+  .case-highlight {
+    position: relative; }
+    .case-highlight .background-image {
+      height: 400px; }
+    .case-highlight .overlay .item-title {
+      font-size: 1.875em; }
+    .case-highlight .overlay .item-ingress {
+      font-size: 1.3125em;
+      margin: 0; }
+    .case-highlight .overlay .readmore {
+      font-size: 0.8125em; }
+    .case-highlight .overlay .container .text {
+      padding-top: 3.75em; } }
+
+/*# sourceMappingURL=CaseHighlight.css.map */

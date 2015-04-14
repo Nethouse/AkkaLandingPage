@@ -1,0 +1,32 @@
+﻿/* ==========================================================================
+#    Colors
+   ========================================================================== */
+/* ==========================================================================
+#    Fonts
+   ========================================================================== */
+/* ==========================================================================
+#    Colors
+   ========================================================================== */
+/* ==========================================================================
+#    Fonts
+   ========================================================================== */
+/* ################## */
+/* ################## */
+/* ################## */
+/* ################## */
+.infopage-content .infopage-sideimage {
+  text-align: center; }
+  .infopage-content .infopage-sideimage img {
+    margin-bottom: 0.5em; }
+  .infopage-content .infopage-sideimage a {
+    color: #0ca9e3;
+    font-weight: bold; }
+  .infopage-content .infopage-sideimage a:hover {
+    text-decoration: underline; }
+.infopage-content .infopage-short-intro, .infopage-content .infopage-intro, .infopage-content .infopage-body {
+  margin-bottom: 1em; }
+
+.share .addthis_sharing_toolbox {
+  margin-top: 10px; }
+.share h3 {
+  margin-top: 20px; }
