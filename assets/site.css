@@ -157,7 +157,7 @@ select {
    Master (header & footer) 
    ========================================================================== */
 .header {
-  background-image: url(/Images/header-bg.jpg);
+  background-image: url(../images/header-bg.jpg);
   background-position-x: 50%;
   background-repeat: no-repeat;
   background-size: cover;
