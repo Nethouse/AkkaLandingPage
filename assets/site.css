@@ -254,7 +254,7 @@ select {
 
 .footer {
   background-repeat: no-repeat;
-  background-image: url(/Images/footer-bg.jpg);
+  background-image: url(../images/header-bg.jpg);
   background-size: cover;
   background-position-x: 50%;
   height: 200px; }
