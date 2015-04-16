@@ -155,7 +155,7 @@ select {
   color: #6c2785; }
 
 /* ==========================================================================
-   Master (header & footer) 
+   Master (header & footer)
    ========================================================================== */
 .header {
   background-image: url(../images/header-bg.jpg);
@@ -217,16 +217,16 @@ select {
   height: 658px; }
 
 .wrap.content {
-  background-color: #b5b5b5;
-  overflow: hidden; }
+  /*background-color: #b5b5b5;
+  overflow: hidden; */}
   .wrap.content .content-wrap {
-    background-color: #fff;
+    /*background-color: #fff;
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
-    margin: 1.25em 0; }
+    margin: 1.25em 0;*/ }
     .wrap.content .content-wrap .container {
       position: relative;
       padding-top: 3.75em;
-      padding-bottom: 6.875em; }
+      padding-bottom: 3.75em; }
       .wrap.content .content-wrap .container h2 {
         font-family: crique_grotesk_display_light, crique_grotesk_display, sans-serif;
         font-weight: normal;
@@ -253,10 +253,6 @@ select {
     margin-top: 0; }
 
 .footer {
-  background-repeat: no-repeat;
-  background-image: url(../images/header-bg.jpg);
-  background-size: cover;
-  background-position-x: 50%;
   height: 200px; }
   .footer .footer-logo {
     margin-top: 2.8125em; }
@@ -484,6 +480,41 @@ select {
     font-size: 2.5em; }
   .footer {
     text-align: center; } }
+
+.dark {
+    background-color: #252525;
+    color: #fff;
+}
+.dark h1,
+.dark h2,
+.dark h3,
+.dark h4 {
+    color: #eee;
+}
+
+.color {
+    background-color: #0386bf;
+    color: #fff;
+}
+.color h1,
+.color h2,
+.color h3,
+.color h4 {
+    color: #eee;
+}
+.color a{
+    color: #fff0d0;
+}
+.info {
+    background-color: #F5F3F4;
+
+}
+.info h1,
+.info h2,
+.info h3,
+.info h4 {
+
+}
 
 /* ==========================================================================
 #    Print CSS
