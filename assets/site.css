@@ -116,9 +116,12 @@ textarea, select, input[type=text], input[type=password], input[type=email], inp
   -moz-box-sizing: border-box;
 
   background-color: #1cb9f3;
-  padding: 0.625em 1.25em;
+  padding: 0.3em 1.25em;
   color: #fff;
   font-weight: bold;
+  -webkit-border-radius: 5px; //For Safari, etc.
+ -moz-border-radius: 5px; //For Mozilla, etc.
+ border-radius: 5px; //CSS3 Feature
 
   /*-webkit-appearance: none;*/ }
 
