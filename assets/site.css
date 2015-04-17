@@ -498,7 +498,7 @@ select {
 
 .dark {
     background-color: #252525;
-    color: #fff;
+    color: ##b1b1b1;
 }
 .dark h1,
 .dark h2,
@@ -522,7 +522,7 @@ select {
 }
 .info {
     background-color: #F5F3F4;
-
+    color: #666;
 }
 .info h1,
 .info h2,
