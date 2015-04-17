@@ -498,13 +498,13 @@ select {
 
 .dark {
     background-color: #026f9f;
-    color: #eef;
+    color: #eee;
 }
 .dark h1,
 .dark h2,
 .dark h3,
 .dark h4 {
-    color: #eee;
+    color: #fff;
 }
 
 .color {
@@ -515,7 +515,7 @@ select {
 .color h2,
 .color h3,
 .color h4 {
-    color: #eee;
+    color: #fff;
 }
 .color a{
     color: #fff0d0;
