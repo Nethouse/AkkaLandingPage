@@ -506,6 +506,9 @@ select {
 .dark h4 {
     color: #fff;
 }
+.dark a{
+    color: #fff0d0;
+}
 
 .color {
     background-color: #0386bf;
