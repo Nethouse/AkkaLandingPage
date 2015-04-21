@@ -21,7 +21,8 @@
   color: #808080; }
 .case-listing .item {
   padding-bottom: 2em;
-  position: relative; }
+  position: relative;
+  text-align:center;  }
   .case-listing .item .item-image {
     margin-bottom: 0.625em; }
   .case-listing .item h3 {
@@ -40,7 +41,7 @@
     display: none; }
   .case-listing .list-break.mod3-0 {
     display: block;
-    height: 3.875em; }
+    height: 0; }
   .case-listing .list-break.mod3-0 + * + div {
     margin-left: 0; } }
 
@@ -50,7 +51,7 @@
 @media (min-width: 641px) and (max-width: 850px) {
   .case-listing .list-break.mod2-0 {
     display: block;
-    height: 3.875em; }
+    height: 0; }
   .case-listing .list-break.mod2-0 + div {
     margin-left: 0; }
   .case-listing .list-break.mod3-0 {
@@ -63,6 +64,7 @@
   .case-listing .list-break.mod2-0, .case-listing .list-break.mod3-0 {
     display: none; }
   .case-listing .item {
-    margin-bottom: 3.875em; } }
+    margin-bottom: 3.875em;
+    text-align:center; } }
 
 /*# sourceMappingURL=caselisting.css.map */

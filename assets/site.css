@@ -105,7 +105,7 @@ textarea, select, input[type=text], input[type=password], input[type=email], inp
   margin-right:5px;
   margin-bottom:5px;
   background: #efefef;
-  width: 50%;
+  width: 100%;
   padding: 0.1875em 0.4375em;
   padding-right: 0;
   font-size: 1em;
@@ -532,6 +532,28 @@ select {
 .info h3,
 .info h4 {
 
+}
+
+i.box-icon{
+    color: #FFF;
+  margin: 25px 0;
+  padding: 0;
+  display: inline-block;
+  font-size: 40px;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  position: relative;
+  background-color: #A94545;
+  border: 0;
+  text-align: center;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
 }
 
 /* ==========================================================================

@@ -1,5 +1,7 @@
 <!DOCTYPE html>
-<html lang="sv" style="" class="js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths" hola_ext_inject="disabled">
+<html lang="sv" style="" class="js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths"
+hola_ext_inject="disabled">
+
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>Akka.NET | Nethouse</title>
@@ -38,10 +40,10 @@
     <link rel="stylesheet" type="text/css" href="./assets/text.css">
     <link rel="stylesheet" type="text/css" href="./assets/List.css">
     <link rel="stylesheet" type="text/css" href="./assets/ContactList.css">
-
     <script async="" src="./assets/analytics.js"></script>
     <script src="./assets/js"></script>
     <script src="./assets/main.js"></script>
+    <link href="http://getakka.net/theme_assets/css/font-awesome.css" rel="stylesheet" type="text/css" />
     <script type="text/javascript" src="./assets/jquery-1.11.1.min.js"></script>
     <script type="text/javascript" src="./assets/jquery.validate.min.js"></script>
     <script type="text/javascript" src="./assets/jquery.validate.unobtrusive.min.js"></script>
@@ -58,7 +60,6 @@
     <script type="text/javascript" src="./assets/CaseListing.js"></script>
     <script type="text/javascript" src="./assets/NewsListing.js"></script>
     <script type="text/javascript" src="./assets/ContactList.js"></script>
-
     <link rel="shortcut icon" href="http://nethouse.se/favicon.ico">
     <link rel="apple-touch-icon" href="http://nethouse.se/favicon.ico">
     <link rel="apple-touch-icon" sizes="72x72" href="http://nethouse.se/favicon.ico">
@@ -74,6 +75,7 @@
     <script type="text/javascript" charset="UTF-8" src="./assets/stats.js"></script>
     <script type="text/javascript" charset="UTF-8" src="./assets/AuthenticationService.Authenticate"></script>
 </head>
+
 <body data-id="1084" class="doc_list temp_list node_level_2 lang_">
     <div id="vis-check-phone" class="visible-phone"></div>
     <div id="vis-check-tablet" class="visible-tablet"></div>
@@ -98,16 +100,28 @@
                     <div class="menuWrap">
                         <ul class="lvl_1">
                             <li class="menu-item ">
-                                <a href="http://nethouse.se/"><span class="visible-phone">› </span><span class="menu-link">Home</span></a>
+                                <a href="http://nethouse.se/">
+                                    <span class="visible-phone">› </span>
+                                    <span class="menu-link">Home</span>
+                                </a>
                             </li>
                             <li class="menu-item active">
-                                <a href="#"><span class="visible-phone">› </span><span class="menu-link">Akka.NET</span></a>
+                                <a href="#">
+                                    <span class="visible-phone">› </span>
+                                    <span class="menu-link">Akka.NET</span>
+                                </a>
                             </li>
-							<li class="menu-item ">
-                                <a href="http://getakka.net"><span class="visible-phone">› </span><span class="menu-link">getakka.net</span></a>
+                            <li class="menu-item ">
+                                <a href="http://getakka.net">
+                                    <span class="visible-phone">› </span>
+                                    <span class="menu-link">getakka.net</span>
+                                </a>
                             </li>
-							<li class="menu-item ">
-                                <a href="https://github.com/akkadotnet/akka.net"><span class="visible-phone">› </span><span class="menu-link">source code</span></a>
+                            <li class="menu-item ">
+                                <a href="https://github.com/akkadotnet/akka.net">
+                                    <span class="visible-phone">› </span>
+                                    <span class="menu-link">source code</span>
+                                </a>
                             </li>
                         </ul>
 
@@ -116,7 +130,9 @@
             </div>
         </div>
         <div class="container">
-            <h2 class="top-title" style="text-align:center"><img src="images/akkalogo.png" style="width:400px;"><br>Akka.NET - Scalable, distributed real-time transaction processing</h2>
+            <h2 class="top-title" style="text-align:center">
+                <img src="images/akkalogo.png" style="width:400px;">
+                <br>Akka.NET - Scalable, distributed real-time transaction processing</h2>
         </div>
     </div>
     <div class="wrap content">
@@ -133,17 +149,20 @@
                                 <p>By embracing the actor model, systems built using Akka.NET by default become <a href="http://getakka.net/docs/concepts/terminology">asynchronous</a> and scale to maximize hardware utilization.</p>
 
                                 <h3>Scale out to multiple machines</h3>
-                                <p>As actors are <a href="http://getakka.net/docs/concepts/location-transparency">"location transparent"</a>, Akka use the very same model for scale out as for scale up. turning your Akka.NET based solution from a single machine application into a distributed system with dynamic number of nodes is simply a matter of configuration.</p>
+                                <p>As actors are <a href="http://getakka.net/docs/concepts/location-transparency">"location transparent"</a>, Akka use the very same model for scale out as for scale up. turning your Akka.NET based solution from a single machine
+                                    application into a distributed system with dynamic number of nodes is simply a matter of configuration.</p>
                                 <h3>Resilient and self healing systems</h3>
-                                <p>The actor model have a unique way to deal with failure called <a href="http://getakka.net/docs/concepts/supervision">"supervision trees"</a>.
-                                Unlike the classical synchrounous model where each consumer of a component need to deal with component failures, Akka.NET and the asynchronous model instead direct failures to dedicated fault handlers.
-                                Thus preventing application type errors from propagating to consumers of system components and instead resolve errors using those fault handlers.
+                                <p>The actor model have a unique way to deal with failure called <a href="http://getakka.net/docs/concepts/supervision">"supervision trees"</a>. Unlike the classical synchrounous model where each consumer of a component need
+                                    to deal with component failures, Akka.NET and the asynchronous model instead direct failures to dedicated fault handlers. Thus preventing application type errors from propagating to consumers of system components and
+                                    instead resolve errors using those fault handlers.
                                 </p>
 
                                 <h3>Modularity</h3>
                                 <p>
-                                Akka.NET is a very scalable piece of software, not only in the context of performance but also in the size of applications it is useful for. The core of Akka.NET, the Akka.Actor package, is very small and easily dropped into an existing project where you need asynchronicity and lockless concurrency without any hassle.</p>
-                                <p>You can choose to include only specific modules of the framework in your application or use the full package. With CPUs growing more and more cores every cycle, Akka.NET is the alternative that provides outstanding performance even if you're only running it on a single machine.</p>
+                                    Akka.NET is a very scalable piece of software, not only in the context of performance but also in the size of applications it is useful for. The core of Akka.NET, the Akka.Actor package, is very small and easily dropped into an existing project where
+                                    you need asynchronicity and lockless concurrency without any hassle.</p>
+                                <p>You can choose to include only specific modules of the framework in your application or use the full package. With CPUs growing more and more cores every cycle, Akka.NET is the alternative that provides outstanding performance
+                                    even if you're only running it on a single machine.</p>
                             </div>
                         </div>
                     </div>
@@ -160,25 +179,77 @@
                             <div class="body-text">
                                 <h1>What's a good use-case for Akka.NET?</h1>
                                 <p>Akka is being adopted by many large organizations in a big range of industries:</p>
-                                <ul>
-                                    <li>Investment and Merchant Banking</li>
-                                    <li>Retail</li>
-                                    <li>Social Media</li>
-                                    <li>Simulation</li>
-                                    <li>Online Gaming</li>
-                                    <li>Gambling and Betting</li>
-                                    <li>Automobile and Traffic Systems</li>
-                                    <li>Health Care</li>
-                                    <li>Data Analytics</li>
-                                </ul>
-                                <p>...and much more. Any system with the need for high-throughput and low latency is a good candidate for using Akka.NET.</p>
-                                <p>The <em>"Actor Model"</em> let you manage service failures using supervisors, load management with back-off strategies, timeouts and processing-isolation, as well as both horizontal and vertical scalability by adding more cores and/or more machines.</p>
+
+                                <div class="case-listing">
+                                    <div class="row">
+                                        <div class="item case-item span8 sptablet12">
+                                            <i class="box-icon fa fa-bank"></i>
+                                            <h3 class="item-title">Investment and Merchant Banking</h3>
+                                            <div class="item-ingress">
+                                            </div>
+                                        </div>
+                                        <div class="list-break mod3-1"></div>
+                                        <div class="list-break mod2-1"></div>
+                                        <div class="item case-item span8 sptablet12">
+                                            <i class="box-icon fa fa-money"></i>
+                                            <h3 class="item-title">Retail</h3>
+                                        </div>
+                                        <div class="list-break mod3-2"></div>
+                                        <div class="list-break mod2-0"></div>
+                                        <div class="item case-item span8 sptablet12">
+                                            <i class="box-icon fa fa-twitter"></i>
+                                            <h3 class="item-title">Social Media</h3>
+                                        </div>
+                                        <div class="list-break mod3-0"></div>
+                                        <div class="list-break mod2-1"></div>
+                                        <div class="item case-item span8 sptablet12">
+                                            <i class="box-icon fa fa-cubes"></i>
+                                            <h3 class="item-title">Simulation</h3>
+                                        </div>
+                                        <div class="list-break mod3-1"></div>
+                                        <div class="list-break mod2-0"></div>
+                                        <div class="item case-item span8 sptablet12">
+                                            <i class="box-icon fa fa-gamepad"></i>
+                                            <h3 class="item-title">Online Gaming</h3>
+                                        </div>
+                                        <div class="list-break mod3-2"></div>
+                                        <div class="list-break mod2-1"></div>
+                                        <div class="item case-item span8 sptablet12">
+                                            <i class="box-icon fa fa-trophy"></i>
+                                            <h3 class="item-title">Gambling and Betting</h3>
+                                        </div>
+                                    </div>
+                                    <div class="list-break mod3-0"></div>
+                                    <div class="list-break mod2-1"></div>
+                                    <div class="item case-item span8 sptablet12">
+                                        <i class="box-icon fa fa-bar-chart-o"></i>
+                                        <h3 class="item-title">Data Analytics</h3>
+                                    </div>
+                                    <div class="list-break mod3-1"></div>
+                                    <div class="list-break mod2-0"></div>
+                                    <div class="item case-item span8 sptablet12">
+                                        <i class="box-icon fa fa-taxi"></i>
+                                        <h3 class="item-title">Automobile and Traffic Systems</h3>
+                                    </div>
+                                    <div class="list-break mod3-2"></div>
+                                    <div class="list-break mod2-1"></div>
+                                    <div class="item case-item span8 sptablet12">
+                                        <i class="box-icon fa fa-medkit"></i>
+                                        <h3 class="item-title">Health Care</h3>
+                                    </div>
+                                </div>
                             </div>
+
+                            <p>...and much more. Any system with the need for high-throughput and low latency is a good candidate for using Akka.NET.</p>
+                            <p>The
+                                <em>"Actor Model"</em> let you manage service failures using supervisors, load management with back-off strategies, timeouts and processing-isolation, as well as both horizontal and vertical scalability by adding more cores
+                                and/or more machines.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
     </div>
     <div class="wrap content">
         <div>
@@ -189,59 +260,82 @@
                             <div class="body-text">
                                 <h1>What we at Nethouse can do for you</h1>
                                 <p>
-                                We are distributed systems specialists and our team which includes the project initiator and co-founder Roger Alsing can help you make the most out of your .NET and cloud solutions.
-                                <br>
-                                We provide expertise in every step from architecture, design and development to deployment, infrastructure setup and data analytics.
+                                    We are distributed systems specialists and our team which includes the project initiator and co-founder Roger Alsing can help you make the most out of your .NET and cloud solutions.
+                                    <br> We provide expertise in every step from architecture, design and development to deployment, infrastructure setup and data analytics.
                                 </p>
                                 <p>
-                                As firm believers in the <a href="http://www.reactivemanifesto.org/">reactive programming model</a>, Akka.NET has a central role in our cloud strategy. We are investing heavily in this area, R&amp;D and project sponsorship.
+                                    As firm believers in the <a href="http://www.reactivemanifesto.org/">reactive programming model</a>, Akka.NET has a central role in our cloud strategy. We are investing heavily in this area, R&amp;D and project sponsorship.
                                 </p>
                                 <br>
-                                <h3>Consulting</h3>
-                                <p>fdsfsd</p>
-                                <h3>Training</h3>
-                                <p>fsdf</p>
-                                <h3>Development</h3>
-                                <p>fsdfs</p>
+                                <div class="case-listing">
+                                    <div class="row">
+                                        <div class="item case-item span8 sptablet12">
+                                            <h3 class="item-title">Consulting</h3>
+                                            <p >
+                                                lorem ipsum
+                                            </p>
+                                        </div>
+                                        <div class="list-break mod3-1"></div>
+                                        <div class="list-break mod2-1"></div>
+                                        <div class="item case-item span8 sptablet12">
+
+                                            <h3 class="item-title">Training</h3>
+                                            <p >
+                                                lorem ipsum
+                                            </p>
+                                        </div>
+                                        <div class="list-break mod3-2"></div>
+                                        <div class="list-break mod2-0"></div>
+                                        <div class="item case-item span8 sptablet12">
+
+                                            <h3 class="item-title">Development</h3>
+                                            <p >
+                                                lorem ipsum
+                                            </p>
+                                        </div>
+
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="wrap content">
-        <div>
-            <div class="content-wrap list-page color">
-                <div class="container">
-                    <div class="row">
-                        <div>
-                            <div class="body-text">
-<h1>Want to know more?</h1>
-<div class="form contact">
-<form accept-charset="utf-8" novalidate="" id="contact-form" action="////formspree.io/roger.alsing@nethouse.se" method="POST">
-<input placeholder="NAME" name="name" type="text">
-<input placeholder="EMAIL" name="_replyto" type="email">
-<input placeholder="SUBJECT" name="_subject" type="text">
-<textarea placeholder="MESSAGE" name="message"></textarea>
-<input style="float:right;" type="submit" value="Submit form">
-</form>
-</div>
+        <div class="wrap content">
+            <div>
+                <div class="content-wrap list-page color">
+                    <div class="container">
+                        <div class="row">
+                            <div>
+                                <div class="body-text">
+                                    <h1>Want to know more?</h1>
+                                    <div class="form contact">
+                                        <form accept-charset="utf-8" novalidate="" id="contact-form" action="////formspree.io/roger.alsing@nethouse.se" method="POST">
+                                            <input placeholder="NAME" name="name" type="text">
+                                            <input placeholder="EMAIL" name="_replyto" type="email">
+                                            <input placeholder="SUBJECT" name="_subject" type="text">
+                                            <textarea placeholder="MESSAGE" name="message"></textarea>
+                                            <input style="float:right;" type="submit" value="Submit form">
+                                        </form>
+                                    </div>
 
 
-<br>
+                                    <br>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="wrap footer color">
-        <div class="container">
-            <img src="./assets/footer-logo.png" class="footer-logo">
+        <div class="wrap footer color">
+            <div class="container" style="text-align:center">
+                <img src="./assets/footer-logo.png" class="footer-logo">
+            </div>
         </div>
-    </div>
-    <a href="http://www.reactivemanifesto.org/"> <img style="border: 0; position: absolute; left: 0; top:0; z-index: 9000" src="//d379ifj7s9wntv.cloudfront.net/reactivemanifesto/images/ribbons/we-are-reactive-red-left.png"> </a>
+        <a href="http://www.reactivemanifesto.org/">
+            <img style="border: 0; position: absolute; left: 0; top:0; z-index: 9000" src="//d379ifj7s9wntv.cloudfront.net/reactivemanifesto/images/ribbons/we-are-reactive-red-left.png"> </a>
 </body>
+
 </html>
