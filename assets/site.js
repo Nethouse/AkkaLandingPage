@@ -19,7 +19,7 @@ $(function () {
     visCheckPhone = $('#vis-check-phone');
     visCheckTablet = $('#vis-check-tablet');
     visCheckDesktop = $('#vis-check-desktop');
-	
+
 	// Bot secure forms, in conjunction with umbraco form model!
     $('form').each(function () {
         var that = this;
@@ -45,44 +45,6 @@ $(function () {
 	    });
 	});
 
-	$('.superSlider').each(function () {
-	    if ((isPhone() && typeof $(this).attr('data-superSlider-slides-phone') == "undefined")
-            || (isTablet() && typeof $(this).attr('data-superSlider-slides-tablet') == "undefined")
-            || (isDesktop() && typeof $(this).attr('data-superSlider-slides-desktop') == "undefined"))
-	        return false;
-
-	    var timeout = parseInt($(this).attr('data-superSlider-timeout')) || 0;
-
-	    var numItems = (isPhone()
-            ? $(this).attr('data-superSlider-slides-phone')
-            : (isTablet()
-            ? $(this).attr('data-superSlider-slides-tablet')
-            : $(this).attr('data-superSlider-slides-desktop')));
-
-	    var noNavigation = $(this).find('.item').length <= numItems;
-
-	    if (noNavigation)
-	        $($(this).attr('data-superSlider-prev') + ',' + $(this).attr('data-superSlider-next')).hide();
-	    else
-	        $($(this).attr('data-superSlider-prev') + ',' + $(this).attr('data-superSlider-next')).show();
-
-	    $(this).cycle({
-	        prev: $(this).attr('data-superSlider-prev'),
-	        next: $(this).attr('data-superSlider-next'),
-	        slides: '> .item',
-	        fx: 'carousel',
-	        timeout: noNavigation ? 0 : timeout,
-	        swipe: true,
-	        carouselVisible: numItems,
-	        carouselFluid: true,
-	        circular: true,
-	        autoHeight: "calc",
-	        allowWrap: ($(this).attr('data-superslider-allowwrap') == "false" ? false : true),
-	        easing: 'linear'
-	    });
-	    if ($(this).find('.item:not(.cycle-sentinel)').length < 2)
-	        $(this).parent().find('.browse').hide();
-	});
 
     // Responsive menu toggle
 	$('#siteMenuBtn').click(function () {
@@ -127,20 +89,7 @@ $(window).load(function () {
     }
 });
 
-/*  ============================================================
-		Functions from wich all calls should come
-	============================================================ */
 
-function readyNresize() {
-    responsiveImages();
-    updateCaseHighlight();
-    setTimeout(function () {
-        alignHeightToHighest('.news-item');
-        alignHeightToHighest('.case-item');
-    }, 50);
-}
-function loadNresize() {
-}
 
 
 /*  ============================================================
@@ -179,7 +128,7 @@ function alignHeightToHighest(selector) {
 
 
 /*
-	Flyttar obj till elementet target och lägger tillbaka med en append i obj orginal parent
+	Flyttar obj till elementet target och lï¿½gger tillbaka med en append i obj orginal parent
 	Ex: moveDiv(".logos2",".logos.hidden-desktop", {desktop:false,tablet:true,mobile:true});
 */
 var movedDivs = 0;
@@ -249,7 +198,7 @@ if (!Modernizr.input.placeholder) {
 /*
  * Fix alt text to a small span beneath the image
  */
-    
+
 $(function () {
     $('span[class*="image-"]').each(function () {
         if ($(this).children("img").attr('alt').indexOf('.jpg') > -1 !== true) {
@@ -296,7 +245,7 @@ function updateCaseHighlight() {
 }
 
 /* Analyticskod (ska ligga sist i denna fil)
-* Vid lansering ändra UA_Code
+* Vid lansering ï¿½ndra UA_Code
 *******************************/
 (function (i, s, o, g, r, a, m) {
     i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
