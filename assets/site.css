@@ -558,7 +558,9 @@ i.box-icon{
 }
 
 .box-image{
-    border-radius: 120px;width: 120px;margin-bottom:25px;
+    border-radius: 120px;
+    width: 120px;
+    margin-bottom:25px;
     border: 2px solid white;
 }
 
