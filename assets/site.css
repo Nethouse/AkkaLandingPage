@@ -535,7 +535,8 @@ select {
 }
 
 i.box-icon{
-    color: #FFF;
+  color: #A94545;
+  border:1px solid #A94545;
   margin-top: 5px;
   margin-bottom: 10px;
   padding: 0;
@@ -545,7 +546,7 @@ i.box-icon{
   height: 80px;
   line-height: 80px;
   position: relative;
-  background-color: #A94545;
+  background-color: #fff;
   border: 0;
   text-align: center;
   -webkit-border-radius: 50%;
@@ -555,6 +556,10 @@ i.box-icon{
   -moz-transition: all 0.2s;
   -o-transition: all 0.2s;
   transition: all 0.2s;
+}
+
+.box-image{
+    border-radius: 100px;width: 120px;margin-bottom:25px;
 }
 
 /* ==========================================================================
