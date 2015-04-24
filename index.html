@@ -152,7 +152,7 @@ hola_ext_inject="disabled">
                                 <p>As actors are <a href="http://getakka.net/docs/concepts/location-transparency">"location transparent"</a>, Akka use the very same model for scale out as for scale up. turning your Akka.NET based solution from a single machine
                                     application into a distributed system with dynamic number of nodes is simply a matter of configuration.</p>
                                 <h3>Resilient and self healing systems</h3>
-                                <p>The actor model have a unique way to deal with failure called <a href="http://getakka.net/docs/concepts/supervision">"supervision trees"</a>. Unlike the classical synchrounous model where each consumer of a component need
+                                <p>The actor model have a unique way to deal with failure called <a href="http://getakka.net/docs/concepts/supervision">"supervision trees"</a>. Unlike the classical synchronous model where each consumer of a component need
                                     to deal with component failures, Akka.NET and the asynchronous model instead direct failures to dedicated fault handlers. Thus preventing application type errors from propagating to consumers of system components and
                                     instead resolve errors using those fault handlers.
                                 </p>
@@ -160,7 +160,7 @@ hola_ext_inject="disabled">
                                 <h3>Modularity</h3>
                                 <p>
                                     Akka.NET is a very scalable piece of software, not only in the context of performance but also in the size of applications it is useful for. The core of Akka.NET, the Akka.Actor package, is very small and easily dropped into an existing project where
-                                    you need asynchronicity and lockless concurrency without any hassle.</p>
+                                    you need asynchronicity and lock less concurrency without any hassle.</p>
                                 <p>You can choose to include only specific modules of the framework in your application or use the full package. With CPUs growing more and more cores every cycle, Akka.NET is the alternative that provides outstanding performance
                                     even if you're only running it on a single machine.</p>
                             </div>
