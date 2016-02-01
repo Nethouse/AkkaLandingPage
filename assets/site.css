@@ -496,7 +496,11 @@ select {
   .wrap.content .content-wrap .container h2 {
     font-size: 2.5em; }
   .footer {
-    text-align: center; } }
+    text-align: center; } 
+   .footer.container.partner {
+      margin-top:25px;
+   }
+}
 
 .dark {
     background-color: #026f9f;
